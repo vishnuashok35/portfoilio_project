@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio website</title>
+   <link rel="stylesheet" href="index.css">
+   <script src="https://kit.fontawesome.com/bfa50c884b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- -------header-------- -->
+    <div id="header">
+       <div class="container">
+        <nav>
+            <img src="pic/Vishnu-designstyle-boots-m.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div>
+            <div class="text-content">
+                <p>MERN STACK DEVELOPER</p>
+                <h1 >Hi,I'm<span> Vishnu  Ashok </span> <br> From India</h1>
+            </div>
+        </div>
+       </div>
+      
+    </div>
+     <!-- -----------------ABOUT----------------- -->
+    <div id="about">
+        <div class="container">
+          <div class="row">
+               <div class="about-col1"><img src="pic/smile.jpg" alt=""></div>
+               <div class="about-col2">
+                <h1 class="subtitle">About</h1>
+                <p>
+                    As a MERN stack developer, I bring a strong foundation in JavaScript, React, Node.js, Express, and MongoDB. While I may be new to the field, my dedication, adaptability, and willingness to learn make me an asset to any team.
+                </p>
+                <p style="padding-top: 10px;">
+                    I am eager to contribute my technical skills and passion for coding to projects, while also actively seeking opportunities for growth and improvement. With a positive attitude and a commitment to continuous learning, I am ready to embark on a successful career in MERN stack development.
+                </p>
+                <div class="tab-title">
+                    <p class="tab-links active-link"  onclick="opentab('skills')">skill</p>
+                    <p class="tab-links" onclick="opentab('experience')">experience</p>
+                    <p class="tab-links" onclick="opentab('education')">education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>MERN STACK</span><br>web development</li>
+                        <li><span>HTML,CSS,BOOTSTRAP</span><br>user interface</li>
+                        <li><span>JAVA SCRIPT</span><br>scripting language</li>
+                        <li><span>REACT JS</span><br>web app development</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2024-current</span><br>MERN STACK web development training at entri elevate institute</li>
+                        <li><span>Aspiring MERN Stack Developer</span></li>
+                        
+                    </ul>
+                </div> <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>MERN STACK -2024</span><br>entri elevate institute</li>
+                        <li><span>B-TECH-2018</span><br>KMCT college of engineering</li>
+                        <li><span>+2-COMPUTER SCIENCE</span><br>kerala phss</li>
+                     
+                    </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- ..................services................... -->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h1>web design</h1>
+                    <p>Web design involves creating the visual elements and layout of a website, while coding involves translating these designs into a functional website using programming languages like HTML, CSS, and JavaScript</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-eye"></i>
+                    <h1>front end</h1>
+                    <p>Front-end web development is the development of the graphical user interface of a website through the use of HTML, CSS, and JavaScript so users can view and interact with that website</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h1>back end</h1>
+                    <p>Back-end development means working on server-side software, 
+                        which focuses on everything you can't see on a website. 
+                        Back-end developers ensure the website performs correctly, focusing on databases, back-end logic,
+                         application programming interface (APIs), architecture, and servers</p>
+                    <a href="#">Learn more</a>
+                </div>
+                
+
+            </div>
+
+        </div>
+    </div>
+    <!-- ------portfolio--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="pic/work1.avif" alt="">
+                    <div class="layer">
+                        <h1>social media</h1>
+                        <p>allows the sharing of ideas and information, 
+                            including text and visuals, through virtual 
+                            networks and communities.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="pic/work2.jpeg" alt="">
+                    <div class="layer">
+                        <h1>social media</h1>
+                        <p>allows the sharing of ideas and information, 
+                            including text and visuals, through virtual 
+                            networks and communities.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="pic/work3.jpg" alt="">
+                    <div class="layer">
+                        <h1>social media</h1>
+                        <p>allows the sharing of ideas and information, 
+                            including text and visuals, through virtual 
+                            networks and communities.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">see more</a>
+        </div>
+    </div>
+    <!-- -----------contact--------- -->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <div class="subtitle">
+                        Contact me
+                    </div>
+                    
+                    <p><i class="fa-solid fa-paper-plane"></i></i>vishnuashok35@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8086698357</p>
+                    <div class="social-icon">
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="/pic/VISHNU_ASHOK_cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                      <input type="text" name="Name" placeholder="Please enter your name " required>
+                      <input type="email" name="Email" placeholder="please enter your email" required>
+                      <textarea name="Message" rows="6" placeholder="your message"></textarea>
+                      <button class="btn btn2" type="submit" >submit</button>
+                    </form>
+                    <span id="msg"></span>
+                    
+                </div>
+                
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© Copyright 2024 All Rights Reserved .Design and developed by vishnu ashok </p>
+        </div>
+        
+     </div>
+
+
+    <script>
+       var tablinks=document.getElementsByClassName("tab-links")
+       var tabcontents=document.getElementsByClassName("tab-contents")
+
+       function opentab(tabname){
+
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+       }
+
+    </script>
+    <script>
+        var side =document.getElementById("sidemenu");
+        function openmenu(){
+            side.style.right="0";
+        }
+        function closemenu(){
+            side.style.right="-150px"
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyT1GYEOeFXd8M23TmC4TynvbksVGqONYvCMxBVK_Gi36vLvDXXaDLypgiwdqVZH84RTA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML ="message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
